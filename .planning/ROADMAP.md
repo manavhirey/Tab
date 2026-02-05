@@ -33,10 +33,13 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Mobile layout shell displays with header and bottom navigation
   4. Base UI components (Button, Card, Input, Modal) are available
   5. Project deploys to production environment
-**Plans**: TBD
+**Plans**: 4 plans
 
 Plans:
-- [ ] 01-01: TBD
+- [ ] 01-01-PLAN.md — Next.js + shadcn/ui setup with base components
+- [ ] 01-02-PLAN.md — Supabase client utilities and auth middleware
+- [ ] 01-03-PLAN.md — Mobile layout shell (header + bottom nav)
+- [ ] 01-04-PLAN.md — Vercel deployment and verification
 
 ### Phase 2: Authentication
 **Goal**: Users can create accounts and maintain secure sessions
@@ -145,7 +148,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/TBD | Not started | - |
+| 1. Foundation | 0/4 | Planned | - |
 | 2. Authentication | 0/TBD | Not started | - |
 | 3. Core IOUs | 0/TBD | Not started | - |
 | 4. IOU Reminders | 0/TBD | Not started | - |
@@ -171,3 +174,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 ---
 *Roadmap created: 2026-02-05*
 *Depth: comprehensive (8 phases)*
+*Phase 1 planned: 2026-02-05*
