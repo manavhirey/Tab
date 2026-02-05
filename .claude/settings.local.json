@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\ndocs: initialize project\n\nTab — mobile-first web app for tracking hidden expenses \\(IOUs and subscriptions\\)\nEOF\n\\)\")",
+      "WebSearch",
+      "WebFetch(domain:www.npmjs.com)",
+      "Bash(npm view:*)",
+      "Bash(test:*)",
+      "Bash(git check-ignore:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
