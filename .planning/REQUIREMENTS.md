@@ -94,36 +94,36 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| AUTH-01 | TBD | Pending |
-| AUTH-02 | TBD | Pending |
-| AUTH-03 | TBD | Pending |
-| IOU-01 | TBD | Pending |
-| IOU-02 | TBD | Pending |
-| IOU-03 | TBD | Pending |
-| IOU-04 | TBD | Pending |
-| IOU-05 | TBD | Pending |
-| IOU-06 | TBD | Pending |
-| IOU-07 | TBD | Pending |
-| SUB-01 | TBD | Pending |
-| SUB-02 | TBD | Pending |
-| SUB-03 | TBD | Pending |
-| SUB-04 | TBD | Pending |
-| SUB-05 | TBD | Pending |
-| DASH-01 | TBD | Pending |
-| DASH-02 | TBD | Pending |
-| DASH-03 | TBD | Pending |
-| DASH-04 | TBD | Pending |
-| ANLY-01 | TBD | Pending |
-| ANLY-02 | TBD | Pending |
-| ANLY-03 | TBD | Pending |
-| ANLY-04 | TBD | Pending |
-| ANLY-05 | TBD | Pending |
+| AUTH-01 | Phase 2: Authentication | Pending |
+| AUTH-02 | Phase 2: Authentication | Pending |
+| AUTH-03 | Phase 2: Authentication | Pending |
+| IOU-01 | Phase 3: Core IOUs | Pending |
+| IOU-02 | Phase 3: Core IOUs | Pending |
+| IOU-03 | Phase 3: Core IOUs | Pending |
+| IOU-04 | Phase 3: Core IOUs | Pending |
+| IOU-05 | Phase 3: Core IOUs | Pending |
+| IOU-06 | Phase 3: Core IOUs | Pending |
+| IOU-07 | Phase 4: IOU Reminders | Pending |
+| SUB-01 | Phase 5: Subscriptions | Pending |
+| SUB-02 | Phase 5: Subscriptions | Pending |
+| SUB-03 | Phase 5: Subscriptions | Pending |
+| SUB-04 | Phase 5: Subscriptions | Pending |
+| SUB-05 | Phase 5: Subscriptions | Pending |
+| DASH-01 | Phase 6: Dashboard | Pending |
+| DASH-02 | Phase 6: Dashboard | Pending |
+| DASH-03 | Phase 6: Dashboard | Pending |
+| DASH-04 | Phase 6: Dashboard | Pending |
+| ANLY-01 | Phase 7: Analytics Core | Pending |
+| ANLY-02 | Phase 8: Analytics Visualization | Pending |
+| ANLY-03 | Phase 8: Analytics Visualization | Pending |
+| ANLY-04 | Phase 7: Analytics Core | Pending |
+| ANLY-05 | Phase 7: Analytics Core | Pending |
 
 **Coverage:**
 - v1 requirements: 24 total
-- Mapped to phases: 0 (pending roadmap)
-- Unmapped: 24
+- Mapped to phases: 24
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-02-05*
-*Last updated: 2026-02-05 after initial definition*
+*Last updated: 2026-02-05 after roadmap creation*
