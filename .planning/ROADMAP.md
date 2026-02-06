@@ -12,7 +12,7 @@ Tab delivers visibility into "quiet" expenses through a mobile-first web app. Th
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation** - Project scaffolding, database, and mobile UI shell (In progress)
+- [x] **Phase 1: Foundation** - Project scaffolding, database, and mobile UI shell ✓
 - [ ] **Phase 2: Authentication** - User accounts with email/password
 - [ ] **Phase 3: Core IOUs** - Quick-add IOUs, viewing, and settlement
 - [ ] **Phase 4: IOU Reminders** - Automatic reminder system with restraint
@@ -37,9 +37,9 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 Plans:
 - [x] 01-01-PLAN.md — Next.js + shadcn/ui setup with base components
-- [ ] 01-02-PLAN.md — Supabase client utilities and auth middleware
-- [ ] 01-03-PLAN.md — Mobile layout shell (header + bottom nav)
-- [ ] 01-04-PLAN.md — Vercel deployment and verification
+- [x] 01-02-PLAN.md — Supabase client utilities and auth middleware
+- [x] 01-03-PLAN.md — Mobile layout shell (header + bottom nav)
+- [x] 01-04-PLAN.md — Vercel deployment and verification
 
 ### Phase 2: Authentication
 **Goal**: Users can create accounts and maintain secure sessions
@@ -148,7 +148,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 1/4 | In progress | - |
+| 1. Foundation | 4/4 | Complete | 2026-02-06 |
 | 2. Authentication | 0/TBD | Not started | - |
 | 3. Core IOUs | 0/TBD | Not started | - |
 | 4. IOU Reminders | 0/TBD | Not started | - |
