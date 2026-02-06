@@ -6,9 +6,19 @@ export async function middleware(request: NextRequest) {
     request,
   })
 
+  // Skip Supabase operations if environment variables are not configured
+  // This allows the app to run without Supabase until credentials are set
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
+  const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+
+  if (!supabaseUrl || !supabaseAnonKey || supabaseUrl === 'your-project-url') {
+    // Supabase not configured, pass through without session refresh
+    return supabaseResponse
+  }
+
   const supabase = createServerClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+    supabaseUrl,
+    supabaseAnonKey,
     {
       cookies: {
         getAll() {
